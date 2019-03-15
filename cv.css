@@ -5,7 +5,7 @@
 #home{
   height: 100vh;
   background-color: rgba(251, 251, 251, 0.6) !important;
-  background-image: url('https://cdn.pixabay.com/photo/2018/09/25/11/52/aerial-3702074_960_720.jpg');
+  background-image: url('img/casual-computer');
   background-blend-mode: color;
   background-size: cover;
   color: purple;
