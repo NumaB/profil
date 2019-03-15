@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+/* ------------------------  Welcome Section  -------------------*/
+#home{
+  height: 100vh;
+  background-color: rgba(251, 251, 251, 0.6) !important;
+  background-image: url('https://cdn.pixabay.com/photo/2018/09/25/11/52/aerial-3702074_960_720.jpg');
+  background-blend-mode: color;
+  background-size: cover;
+  color: purple;
+  font-family: 'Indie Flower', cursive;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 5%;
+  padding-bottom: 4%;
+}
+#home-text{
+  max-height: 40%;
+}
+#home-text h2{
+  font-weight: bold;
+  font-size: 6em;
+  float: right;
+  color: rgb(0,45,135);
+}
+#home-text p{
+  font-size: 4em;
+}
+
+/* ------------------------  A propos  -------------------*/
+#about-me-title{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  padding: 4% 0 1% 0;
+}
+#about-me-title h2{
+  font-size: 5em;
+}
+
+#about-me-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+#about-me-text{
+  flex: 1 0;
+}
+.question{
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#about-me-photo{
+  display: flex;
+  flex: 0 0 400px;
+  justify-content: space-around;
+}
+#about-me-photo img{
+  max-height: 400px;
+  margin: 3%;
+}
