@@ -6,6 +6,18 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="education/css/style.css" media="screen" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="education/js/jquery.timelinr-0.9.7.js"></script>
+  <script>
+    $(function(){
+      $().timelinr({
+        arrowKeys: 'true'
+      })
+    });
+  </script>
+
 
 </head>
 
@@ -41,6 +53,66 @@
   </section>
 
   <section id="education">
+    <div id="about-me-title">
+      <h2>Education</h2>
+    </div>
+    <div id="timeline">
+      <ul id="dates">
+        <li><a href="#2010">2010</a></li>
+        <li><a href="#2011">2011</a></li>
+        <li><a href="#2018">2018</a></li>
+        <li><a href="#2019">2019</a></li>
+      </ul>
+      <ul id="issues">
+        <li id="2010">
+          <img src="img/banksia-park-logo-alt.png" width="256" height="256" />
+          <h4>Banksia Park</h4>
+          <p>Banksia Park est un lycée international situé à Adélaïde, en Australie.
+            J'ai eu la chance d'effectuer un trimestre là-bas car j'étais trop jeune pour faire un stage en seconde.
+            J'ai notamment fait des maths, de l'initiation à un logiciel de conception 3D et de l'art visuel là-bas.
+            Je suis parti de juin à aout, à 15 000km de ma famille, à l'âge de 13 ans.
+            Cela n'a pas toujours été simple mais j'ai beaucoup aimé et appris de cette expérience.
+          </p>
+        </li>
+        <li id="2011">
+          <img src="img/reynolds-logo-alt.png" width="256" height="256" />
+          <h4>Reynolds Highschool</h4>
+          <p>Vous avez peut-être déjà entendu parlé de ce lycée américain où il y a eu une fusillade en été 2014.
+            Moi, j'y ai passé un trimestre trois ans plus tôt. D'avril à juin 2011.
+            J'avais décidé relativement tôt dans l'année que je redoublerai ma première.
+            J'ai pu donc mettre à profit la fin de cette année scolaire et ainsi partir faire un trimestre en Oregon,
+            l'Etat à la frontière nord de la Californie.
+            Fort de mon expérience australienne, celle américaine m'a paru moins rude.
+            Ça a été un plaisir de vivre là-bas, j'en garde également très bon souvenir.
+          </p>
+        </li>
+        <li id="2018">
+          <img src="img/utp-logo-alt.png" width="256" height="256" />
+          <h4>Universiti Teknologi Petronas</h4>
+          <p>Dans le cadre de ma formation ingénieure, j'ai fait un semestre dans la prestigieuse UTP, une jeune université de la Malaisie.
+            J'y ai beaucoup étudié l'impact des nouvelles technologies sur l'environnement et la société.
+            Mais ce ne serait pas très honnête d'insinuer que ce sont les cours qui m'ont attiré là-bas.
+            La Malaisie, et l'Asie du Sud-Est dans sa globalité, est une région du monde que j'ai toujours rêvé de visiter.
+            Grandes villes, jungle primaire, îles paradisiaques mais aussi 30°C en hiver, ça a été vraiment cool.
+          </p>
+        </li>
+        <li id="2019">
+          <img src="img/berkeley-logo.png" width="256" height="256" />
+          <h4>Berkeley University</h4>
+          <p>Cet été, j'irai suivre un programme summer school à l'université de Berkeley, à San Fransisco.
+            8 ans après Reynolds Highschool, c'est mon grand retour sur la <i>West Coast</i>. Sauf que maintenant je suis majeur.
+            Nous sommes une vingtaine d'ingénieurs-managers à s'être lancés dans ce programme à Berkeley. Incluant mon grand poto
+            <a href="https://chupakabrak.github.io/cv/">Donatien</a>.
+            Je vais faire un peu de finance, un peu de management et un soupçon de psycho là-bas.
+            J'ai hâte d'y être, Berkeley est considérée comme l'une des meilleures universités du monde, vivement cet été!!!
+          </p>
+        </li>
+      </ul>
+      <div id="grad_left"></div>
+      <div id="grad_right"></div>
+      <a href="#" id="next">+</a>
+      <a href="#" id="prev">-</a>
+  </div>
   </section>
 
   <section id="experience">
