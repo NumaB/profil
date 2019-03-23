@@ -1,125 +1,215 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8"/>
-  <title>Numa Béguerie</title>
-  <link rel="stylesheet" type="text/css" href="cv.css">
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-  <link rel="stylesheet" href="education/css/style.css" media="screen" />
+  <head>
+    <meta charset="utf-8"/>
+    <title>Numa Béguerie</title>
+    <link rel="stylesheet" type="text/css" href="cv.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="education/css/style.css" media="screen" />
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="education/js/jquery.timelinr-0.9.7.js"></script>
-  <script>
-    $(function(){
-      $().timelinr({
-        arrowKeys: 'true'
-      })
-    });
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="education/js/jquery.timelinr-0.9.7.js"></script>
+    <script type="text/javascript" src="cv.js"></script>
+    <script>
+      $(function(){
+        $().timelinr({
+          arrowKeys: 'true'
+        })
+      });
+    </script>
 
 
-</head>
+  </head>
 
-<body>
-  <section id="home">
-    <div id="home-text">
-      <h2>Numa Béguerie</h2>
-      <p><i>Bienvenue dans mon portfolio!</i></p>
-    </div>
-  </section>
-
-  <section id="about-me">
-    <div id="about-me-title">
-      <h2>About me</h2>
-    </div>
-    <div id="about-me-content">
-      <div id="about-me-photo">
-        <img src="img/moi.jpg">
+  <body>
+    <section id="home">
+      <div id="home-text">
+        <h2>Numa Béguerie</h2>
+        <p><i>Bienvenue dans mon portfolio!</i></p>
       </div>
-      <div id="about-me-text">
-        <p>Je m'appelle Numa, je suis ingénieur-manager. J'étudie à Nantes depuis 3 ans, j'ai intégré les Mines de Nantes
-          en septembre 2016 puis j'ai été accepté en cursus manager à Audencia en septembre 2018.</p>
-        <p class="question">Pourquoi avoir suivi un cursus ingénieur?</p>
-        <p>No reason, j'étais bon en maths au lycée ¯\_(ツ)_/¯</p>
-        <p class="question">ô.Ô ... Une motivation particulière pour suivre un cursus manager?</p>
-        <p>Je voulais un peu échapper de l'info et de la physique qu'on me servait en école d'ingé, je pense vraiment avoir
-          plutôt un profil manager. Mais je reste près de la tech même à Audencia, où je fais option marketing digital,
-          c'est un secteur porteur ^_^</p>
-        <p class="question">Une chose à ajouter?</p>
-        <p>J'aimerais beaucoup voyager plutôt que travailler après être diplomé...</p>
+    </section>
+
+    <section id="about-me">
+      <div class="big-title">
+        <h2>About me</h2>
       </div>
+      <div id="about-me-content">
+        <div id="about-me-photo">
+          <img src="img/moi.jpg">
+        </div>
+        <div id="about-me-text">
+          <p>Je m'appelle Numa, je suis ingénieur-manager. J'étudie à Nantes depuis 3 ans, j'ai intégré les Mines de Nantes
+            en septembre 2016 puis j'ai été accepté en cursus manager à Audencia en septembre 2018.</p>
+          <p class="question">Pourquoi avoir suivi un cursus ingénieur?</p>
+          <p>No reason, j'étais bon en maths au lycée ¯\_(ツ)_/¯</p>
+          <p class="question">ô.Ô ... Une motivation particulière pour suivre un cursus manager?</p>
+          <p>Je voulais un peu échapper de l'info et de la physique qu'on me servait en école d'ingé, je pense vraiment avoir
+            plutôt un profil manager. Mais je reste près de la tech même à Audencia, où je fais option marketing digital,
+            c'est un secteur porteur ^_^</p>
+          <p class="question">Une chose à ajouter?</p>
+          <p>J'aimerais beaucoup voyager plutôt que travailler après être diplomé...</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="big-title">
+        <h2>Education</h2>
+      </div>
+      <div id="timeline">
+        <ul id="dates">
+          <li><a href="#2010">2010</a></li>
+          <li><a href="#2011">2011</a></li>
+          <li><a href="#2018">2018</a></li>
+          <li><a href="#2019">2019</a></li>
+        </ul>
+        <ul id="issues">
+          <li id="2010">
+            <img src="img/banksia-park-logo-alt.png" width="256" height="256" />
+            <h4>Banksia Park</h4>
+            <p>Banksia Park est un lycée international situé à Adélaïde, en Australie.
+              J'ai eu la chance d'effectuer un trimestre là-bas car j'étais trop jeune pour faire un stage en seconde.
+              J'ai notamment fait des maths, de l'initiation à un logiciel de conception 3D et de l'art visuel là-bas.
+              Je suis parti de juin à aout, à 15 000km de ma famille, à l'âge de 13 ans.
+              Cela n'a pas toujours été simple mais j'ai beaucoup aimé et appris de cette expérience.
+            </p>
+          </li>
+          <li id="2011">
+            <img src="img/reynolds-logo-alt.png" width="256" height="256" />
+            <h4>Reynolds Highschool</h4>
+            <p>Vous avez peut-être déjà entendu parlé de ce lycée américain où il y a eu une fusillade en été 2014.
+              Moi, j'y ai passé un trimestre trois ans plus tôt. D'avril à juin 2011.
+              J'avais décidé relativement tôt dans l'année que je redoublerai ma première.
+              J'ai pu donc mettre à profit la fin de cette année scolaire et ainsi partir faire un trimestre en Oregon,
+              l'Etat à la frontière nord de la Californie.
+              Fort de mon expérience australienne, celle américaine m'a paru moins rude.
+              Ça a été un plaisir de vivre là-bas, j'en garde également très bon souvenir.
+            </p>
+          </li>
+          <li id="2018">
+            <img src="img/utp-logo-alt.png" width="256" height="256" />
+            <h4>Universiti Teknologi Petronas</h4>
+            <p>Dans le cadre de ma formation ingénieure, j'ai fait un semestre dans la prestigieuse UTP, une jeune université de la Malaisie.
+              J'y ai beaucoup étudié l'impact des nouvelles technologies sur l'environnement et la société.
+              Mais ce ne serait pas très honnête d'insinuer que ce sont les cours qui m'ont attiré là-bas.
+              La Malaisie, et l'Asie du Sud-Est dans sa globalité, est une région du monde que j'ai toujours rêvé de visiter.
+              Grandes villes, jungle primaire, îles paradisiaques mais aussi 30°C en hiver, ça a été vraiment cool.
+            </p>
+          </li>
+          <li id="2019">
+            <img src="img/berkeley-logo.png" width="256" height="256" />
+            <h4>Berkeley University</h4>
+            <p>Cet été, j'irai suivre un programme summer school à l'université de Berkeley, à San Fransisco.
+              8 ans après Reynolds Highschool, c'est mon grand retour sur la <i>West Coast</i>. Sauf que maintenant je suis majeur.
+              Nous sommes une vingtaine d'ingénieurs-managers à s'être lancés dans ce programme à Berkeley. Incluant mon grand poto
+              <a href="https://chupakabrak.github.io/cv/">Donatien</a>.
+              Je vais faire un peu de finance, un peu de management et un soupçon de psycho là-bas.
+              J'ai hâte d'y être, Berkeley est considérée comme l'une des meilleures universités du monde, vivement cet été!!!
+            </p>
+          </li>
+        </ul>
+        <div id="grad_left"></div>
+        <div id="grad_right"></div>
+        <a href="#" id="next">+</a>
+        <a href="#" id="prev">-</a>
     </div>
-  </section>
+    </section>
 
-  <section id="education">
-    <div id="about-me-title">
-      <h2>Education</h2>
-    </div>
-    <div id="timeline">
-      <ul id="dates">
-        <li><a href="#2010">2010</a></li>
-        <li><a href="#2011">2011</a></li>
-        <li><a href="#2018">2018</a></li>
-        <li><a href="#2019">2019</a></li>
-      </ul>
-      <ul id="issues">
-        <li id="2010">
-          <img src="img/banksia-park-logo-alt.png" width="256" height="256" />
-          <h4>Banksia Park</h4>
-          <p>Banksia Park est un lycée international situé à Adélaïde, en Australie.
-            J'ai eu la chance d'effectuer un trimestre là-bas car j'étais trop jeune pour faire un stage en seconde.
-            J'ai notamment fait des maths, de l'initiation à un logiciel de conception 3D et de l'art visuel là-bas.
-            Je suis parti de juin à aout, à 15 000km de ma famille, à l'âge de 13 ans.
-            Cela n'a pas toujours été simple mais j'ai beaucoup aimé et appris de cette expérience.
-          </p>
-        </li>
-        <li id="2011">
-          <img src="img/reynolds-logo-alt.png" width="256" height="256" />
-          <h4>Reynolds Highschool</h4>
-          <p>Vous avez peut-être déjà entendu parlé de ce lycée américain où il y a eu une fusillade en été 2014.
-            Moi, j'y ai passé un trimestre trois ans plus tôt. D'avril à juin 2011.
-            J'avais décidé relativement tôt dans l'année que je redoublerai ma première.
-            J'ai pu donc mettre à profit la fin de cette année scolaire et ainsi partir faire un trimestre en Oregon,
-            l'Etat à la frontière nord de la Californie.
-            Fort de mon expérience australienne, celle américaine m'a paru moins rude.
-            Ça a été un plaisir de vivre là-bas, j'en garde également très bon souvenir.
-          </p>
-        </li>
-        <li id="2018">
-          <img src="img/utp-logo-alt.png" width="256" height="256" />
-          <h4>Universiti Teknologi Petronas</h4>
-          <p>Dans le cadre de ma formation ingénieure, j'ai fait un semestre dans la prestigieuse UTP, une jeune université de la Malaisie.
-            J'y ai beaucoup étudié l'impact des nouvelles technologies sur l'environnement et la société.
-            Mais ce ne serait pas très honnête d'insinuer que ce sont les cours qui m'ont attiré là-bas.
-            La Malaisie, et l'Asie du Sud-Est dans sa globalité, est une région du monde que j'ai toujours rêvé de visiter.
-            Grandes villes, jungle primaire, îles paradisiaques mais aussi 30°C en hiver, ça a été vraiment cool.
-          </p>
-        </li>
-        <li id="2019">
-          <img src="img/berkeley-logo.png" width="256" height="256" />
-          <h4>Berkeley University</h4>
-          <p>Cet été, j'irai suivre un programme summer school à l'université de Berkeley, à San Fransisco.
-            8 ans après Reynolds Highschool, c'est mon grand retour sur la <i>West Coast</i>. Sauf que maintenant je suis majeur.
-            Nous sommes une vingtaine d'ingénieurs-managers à s'être lancés dans ce programme à Berkeley. Incluant mon grand poto
-            <a href="https://chupakabrak.github.io/cv/">Donatien</a>.
-            Je vais faire un peu de finance, un peu de management et un soupçon de psycho là-bas.
-            J'ai hâte d'y être, Berkeley est considérée comme l'une des meilleures universités du monde, vivement cet été!!!
-          </p>
-        </li>
-      </ul>
-      <div id="grad_left"></div>
-      <div id="grad_right"></div>
-      <a href="#" id="next">+</a>
-      <a href="#" id="prev">-</a>
-  </div>
-  </section>
+    <section id="experience">
+      <div class="big-title">
+        <h2>Expérience</h2>
+      </div>
+      <div class="dashboard">
 
-  <section id="experience">
-  </section>
+        <div id="faster-container" class="dashboard-card">
+          <img id="faster-logo" class="dash-img" src="img/logo-fastercom.jpg">
+          <div class="">
+            <h4>Fastercom</h4>
+            <p>Développeur logiciel</p>
+          </div>
+        </div>
+        <div id="treso-container" class="dashboard-card">
+          <img id="treso-logo" class="dash-img" src="img/logo-bde.png">
+          <div class="">
+            <h4>BDE IMT Atlantique</h4>
+            <p>Trésorier</p>
+          </div>
+        </div>
+        <div id="asf-container" class="dashboard-card">
+          <img id="asf-logo" class="dash-img" src="img/asf-logo.png">
+          <div class="">
+            <h4>Atlantique Sans Frontière Nantes</h4>
+            <p>Co-fondateur et président</p>
+          </div>
+        </div>
+        <div id="LP-container" class="dashboard-card">
+          <img id="LP-logo" class="dash-img" src="img/la-poste-logo.png">
+          <div>
+            <h4>La Poste</h4>
+            <p>Facteur</p>
+          </div>
+        </div>
 
-  <section id="projects">
-  </section>
-</body>
+      </div>
+
+      <h5 id="faster-title" class="modal">Fastercom</h5>
+      <span id="faster-text" class="modal">
+        J'ai fait mon stage international de mai à juillet 2018 à Fastercom, Montréal.
+        J'ai intégré le département de développement logiciel. Le dev, c'est pas mon dada, mais il faut reconnaître que j'ai beaucoup appris pendant ce stage.
+        En tout cas, avoir pu passer 3 mois à Montréal, c'était vraiment trop bien. Pendant l'été,
+        il y a toujours toute sorte d'événement ou festival qui y est organisé.
+        Le Canada m'a beaucoup marqué pendant mon court séjour. J'ai vraiment envie d'y retourner,
+        attiré par les contrées plus reculées vers le nord du pays.
+      </span>
+      <h5 id="treso-title" class="modal">Le BDE</h5>
+      <span id="treso-text" class="modal">
+        En décembre 2016, au terme de 2 semaines de rude campagne, la liste Mines'Victus est élue BDE des Mines de Nantes.
+        En tant que trésorier de la liste, j'en avais déjà bavé pendant les campagnes. Et même avant, pour préparer les-dites campagnes.
+        Ce n'était rien comparé à l'année 2017 passée à la tête des comptes du BDE. Routine dans le contrôle des entrées/sorties,
+        frayeur de l'intégration, trou comptable du gala, etc...
+        Le plus regrettable, ça reste la casse. Quelques pignoufs (restons polis) qui saccagent les luminaires, les extincteurs, les faux plafonds, etc...
+        Et la communauté qui paye. Et moi qui voit défiler les factures.
+      </span>
+      <h5 id="asf-title" class="modal">ASF</h5>
+      <span id="asf-text" class="modal">
+        Télécom Bretagne avait son association humanitaire TSF (Teubreux Sans Frontières). A l'occasion de la fusion avec cette école,
+        nous avons été une quinzaine d'étudiants à créer l'association sur le campus de Nantes. Après réflexion courant février 2017,
+        j'ai été désigné président pour accompagner cette création. Pas par amour pour l'humanitaire (faut être honnête), mais l'expérience
+        semblait intéressante. Dieu, qu'elle le fut. Être président d'une asso en construction, c'est entre autre un étrange exercice de communication
+        entre la direction de l'école, l'équipe sur place et celle en poste à Brest. Cela n'a pas été de tout repos.
+      </span>
+      <h5 id="LP-title" class="modal">La Poste</h5>
+      <span id="LP-text" class="modal">
+        J'ai trouvé cet effet de pop-up sur w3schools. Il était utilisé pour une galerie d'image, je me suis dit que je pourrais l'adapter
+        et l'intégrer sur mon portfolio.
+      </span>
+      <span id="LP-text-2" class="modal">
+        J'ai dû modifier une bonne partie du code JS pour pouvoir intégrer du texte récupéré sur la page HTML.
+        Il y avait sûrement plus simple, mais j'ai fait avec ce que je savais faire (DOM). J'ai la possiblité d'intégrer plusieurs paragraphes
+        mais je bute encore sur l'effet de scroll. A défaut de pouvoir le résoudre en 1 semaine, j'ai choisi de le désactiver.
+        Et donc de limiter grandement la description de mes expériences précédentes pour que ce soit lisible en version mobile.
+      </span>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">x</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+
+    </section>
+
+    <section id="footer">
+      <div id="contact">
+        <p>Pour me contacter:</p>
+        <a href="https://github.com/NumaB"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/numa-b%C3%A9guerie-66354a159/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.freecodecamp.org/numa"><i class="fab fa-free-code-camp"></i></a>
+      </div>
+      <p><i>Merci à <a href="https://github.com/juanbrujo/jQuery-Timelinr" style="font-size: 1em; color: rgb(200,30,30); text-decoration: none;">Juanbrujo</a> pour la template timeline</i></p>
+    </section>
+
+  </body>
 </html>
