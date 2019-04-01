@@ -203,18 +203,32 @@
     width: 100%;
   }
 }
+@media (max-width: 1050px) {
+  .dashboard {
+    display: block;
+  }
+  #experience{
+    margin-bottom: -150px;
+  }
+  #experience:after{
+    content:"";
+    display: block;
+    height: 150px;
+  }
+}
 
 /* ------------------------ Footer -------------------*/
-#footer{
+#foot{
   padding: 30px;
   background-color: rgb(225,225,225);
   color: rgb(10,10,10);
 }
 
-#footer a {
+
+#foot a {
   color: rgb(10,10,10);
   font-size: 32px;
 }
-#footer a:hover {
+#foot a:hover {
   color: rgb(100,100,100);
 }
