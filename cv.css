@@ -39,6 +39,21 @@
   font-size: 4em;
 }
 
+@media (max-width: 900px) {
+  #home{
+    justify-content: center;
+    align-items: center;
+  }
+  #home-text h2{
+    font-size: 3em;
+    float: none;
+  }
+  #home-text p{
+    font-size: 2em;
+  }
+}
+
+
 /* ------------------------  A propos  -------------------*/
 #about-me-content{
   display: flex;
@@ -64,8 +79,27 @@
   margin: 3%;
 }
 
+@media (max-width: 900px) {
+  #about-me-content{
+    display: block;
+  }
+}
+
 /* ------------------------  Education  -------------------*/
 /* -------------------  cf dossier education  -------------*/
+
+@media (max-width: 900px) {
+  #timeline{
+    max-width: 100%;
+  }
+  #timeline ul li img{
+    width: 140px;
+    height: 140px;
+  }
+  #timeline ul li p{
+    padding: 1px;
+  }
+}
 
 /* ------------------------ Expérience -------------------*/
 
@@ -231,4 +265,9 @@
 }
 #foot a:hover {
   color: rgb(100,100,100);
+}
+@media (max-width: 1050px) {
+  #foot{
+    display: none;
+  }
 }
